@@ -1,20 +1,25 @@
 .home-page-container {
   padding: 0px 10px 10px 10px;
   margin: 0 auto;
+
+  max-width: 1000px;
+  margin: 10px auto;
+  padding: 20px;
+  font-family: "Noto Sans KR", sans-serif;
+  color: #333;
 }
 
-.popular-shoes-title{
+.popular-shoes-title {
   padding: 15px;
-  border-radius: 20px;
+  border-radius: 15px;
   background-color: black;
   color: white;
   margin-bottom: 30px;
   text-align: left;
-
 }
 
 .product-grid {
-  padding: 30px 100px 0px 100px;
+  padding: 30px 20px 0px 20px;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
   gap: 25px;
