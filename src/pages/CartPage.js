@@ -109,7 +109,7 @@ export default function CartPage() {
                   />
                 </td>
                 <td className="productInfo">
-                  <img src={item.image} alt={item.name} />
+                  <img src={item.image[0]} alt={item.name} />
                   <div>
                     <div>{item.name}</div>
                     <div>사이즈 {item.size}</div>
